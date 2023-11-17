@@ -1,0 +1,35 @@
+Question 5. Define Favicon and give an illustrative example.
+
+ans :- A favicon, short for "favorite icon," is a small, iconic image that represents a website. It is typically displayed in the browser's address bar, bookmarks, tabs, and 
+other places to help users quickly identify a website. Favicons contribute to the visual identity of a website and enhance its branding. They are usually square images with a recommended size of 16x16 pixels or 32x32 pixels.
+
+Here's an illustrative example:
+
+Let's say you have a website named "Example.com." You can create a favicon for your site and save it as a small image file, commonly in the ICO (Icon) format. 
+The file is then named "favicon.ico" and is placed in the root directory of your website. The HTML code to link to this favicon is typically included in the <head> section of your HTML document:
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Website Title</title>
+    <!-- Link to the favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- Optional: Specify the favicon for different devices -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+</head>
+<body>
+    <!-- Your website content goes here -->
+</body>
+</html>
+
+
+In this example:
+
+The main favicon is specified using the <link> tag with the rel="icon" attribute.
+Optional additional favicons for different devices (such as Apple touch devices and various browser contexts) are also included using the <link> tag.
+
+Keep in mind that the specific filenames and sizes may vary, and it's a good practice to provide multiple sizes to ensure optimal display across various devices.
+Including a favicon is a small but important detail that contributes to a professional and recognizable web presence.
